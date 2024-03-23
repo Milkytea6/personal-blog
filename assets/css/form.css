@@ -19,6 +19,8 @@ header{
 }
 .blog-form h2{
     text-align: center;
+    font-size: 50px;
+    
 }
 
 form div{
@@ -27,6 +29,17 @@ form div{
 form div input{
     width: 100%;
 }
+footer{
+    font-size: large;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+}
+footer > *{
+    padding: 25px;
+}
+
+/* Allow the img and form content to display vertically on smaller screens. */
 @media screen and (max-width: 720px){
     .blog-content{
         flex-direction: column;
