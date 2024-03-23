@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +9,41 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/form.css">
 </head>
-<body>
 
-    
+<body>
+    <header>
+        
+        <button class="modebtn">Light-Dark Mode</button>
+    </header>
+    <div class="blog-content">
+        <img class="blog-img" src="./assets/images/my-first-blog-sprite.png">
+        <section class="blog-form">
+            <h2>What's on your mind?</h2>
+            <form>
+                <div>
+                    <label>Username</label>
+                    <input type="text" id="username" name="username">
+                </div>
+                <div>
+                    <label>Title</label>
+                    <input type="text" id="title" name="title">
+                </div>
+                <div>
+                    <label>Content</label>
+                    <input type="text" id="content" name="content">
+                </div>
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+                
+            </form>
+        </section>
+    </div>
+
+
     <!-- logic.js is for both webpages, while form.js will only affect the form page. -->
     <script src="./assets/js/logic.js"></script>
     <script src="./assets/js/form.js"></script>
 </body>
+
 </html>

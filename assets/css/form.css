@@ -1,0 +1,42 @@
+header{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+.blog-content{
+    display: flex;
+    background-color: antiquewhite;
+}
+.blog-img,
+.blog-form{
+    width: 50%;
+    margin: 5px;
+    border: 5px double black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.blog-form h2{
+    text-align: center;
+}
+
+form div{
+    margin:30px;
+}
+form div input{
+    width: 100%;
+}
+@media screen and (max-width: 720px){
+    .blog-content{
+        flex-direction: column;
+    }
+    .blog-img,
+    .blog-form{
+        width: 100%;
+       
+    }
+    
+}
+
+
