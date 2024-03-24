@@ -2,6 +2,8 @@ const inputUsername = document.getElementById('username');
 const inputTitle = document.getElementById('title');
 const inputContent = document.getElementById('content');
 const submitBtn = document.getElementById('submit-btn');
+const modeSwitch = document.getElementById('mode-btn-form');
+const body = document.body;
 
 // added event listener function with event parameter.
 submitBtn.addEventListener('click', function(event)
@@ -23,3 +25,8 @@ submitBtn.addEventListener('click', function(event)
     localStorage.setItem('blogDetails', JSON.stringify(blogDetails)); 
 }
 )
+
+modeSwitch.addEventListener('click', function(event){
+    event.preventDefault;
+    body.classList.toggle('dark-mode');
+})

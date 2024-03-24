@@ -1,12 +1,17 @@
-header{
+body{
     background-color: antiquewhite;
+}
+header{
     display: flex;
     justify-content: end;
     padding: 10px;
 }
+.dark-mode{
+    background-color: midnightblue;
+    color: antiquewhite;
+}
 .blog-content{
     display: flex;
-    background-color: antiquewhite;
 }
 .blog-img,
 .blog-form{
@@ -29,7 +34,6 @@ form div input{
 }
 footer{
     font-size: large;
-    background-color: antiquewhite;
     display: flex;
     justify-content: space-around;
 }
