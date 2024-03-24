@@ -2,7 +2,7 @@ const inputUsername = document.getElementById('username');
 const inputTitle = document.getElementById('title');
 const inputContent = document.getElementById('content');
 const submitBtn = document.getElementById('submit-btn');
-const modeSwitch = document.getElementById('mode-btn-form');
+
 const body = document.body;
 
 // added event listener function with event parameter.
@@ -20,11 +20,10 @@ submitBtn.addEventListener('click', function(event)
         return;
     }
     // Pulling array from local storage 
-    let blogArray = JSON.parse(localStorage.getItem('blogArray'));
+    let blogArray = JSON.parse(localStorage.getItem('blogArray')) || [];
     // converts object to string
-    const blogString = JSON.stringify(blogDetails);
     // Pushes stringified object to array
-    blogArray.push(blogString);
+    blogArray.push(blogDetails);
     // Saves array in local storage
     localStorage.setItem('blogArray', JSON.stringify(blogArray));
 
@@ -33,8 +32,3 @@ submitBtn.addEventListener('click', function(event)
     window.location.href = "blog.html";
 }
 )
-
-modeSwitch.addEventListener('click', function(event){
-    event.preventDefault;
-    body.classList.toggle('dark-mode');
-})

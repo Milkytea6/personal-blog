@@ -1,17 +1,12 @@
 // Variables for back button and mode switch button.
 const backBtn = document.getElementById('back-btn');
-const modeSwitch = document.getElementById('mode-btn-blog');
 const body = document.body;
+const blogPosts = document.getElementById('blogPosts');
 
-backBtn.addEventListener('click', function(){
-    window.history.backBtn;
-})
-
-modeSwitch.addEventListener('click', function(event){
+backBtn.addEventListener('click', function(event){
     event.preventDefault;
-    body.classList.toggle('dark-mode');
+    window.location ="index.html";
 })
-
 // Variables to access array in local storage.
 const localArray = JSON.parse(localStorage.getItem('blogArray'));
 // Access each object in array
@@ -21,7 +16,7 @@ localArray.forEach(obj => {
     // Gives div a class of blog-post
     blogPost.setAttribute('class', 'blog-post');
     // Appends the div to the parent section.
-    body.appendChild(blogPost);
+    blogPosts.appendChild(blogPost);
     // Creates tags for each value in the objects
     const title = document.createElement('h2');
     const content = document.createElement('p');

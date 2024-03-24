@@ -6,13 +6,6 @@ header{
     justify-content: end;
     padding: 10px;
 }
-.dark-mode{
-    background-color: rgb(30, 30, 136);
-    color: antiquewhite;
-}
-.dark-mode a{
-    color:antiquewhite
-}
 .blog-content{
     display: flex;
 }
