@@ -1,5 +1,7 @@
 # Personal Blog
 
+## Functionality 
+
 ## User Story
 ```
 AS A marketing student
@@ -32,3 +34,8 @@ THEN I can see the title, the content, and the author of the post.
 WHEN I view the footer,
 THEN I am presented with a link to the developer's portfolio.
 ```
+## Summary
+
+## Deployed Webpage
+
+## Screenshot

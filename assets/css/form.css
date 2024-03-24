@@ -10,7 +10,7 @@ header{
 }
 .blog-img,
 .blog-form{
-    width: 50%;
+    width: 48%;
     margin: 5px;
     border: 5px double black;
     display: flex;
@@ -20,9 +20,7 @@ header{
 .blog-form h2{
     text-align: center;
     font-size: 50px;
-    
 }
-
 form div{
     margin:30px;
 }
