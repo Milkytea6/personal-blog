@@ -4,11 +4,29 @@
     box-sizing: border-box;
     font-size: 100%;
 }
+body{
+    background-color: antiquewhite;
+}
+header{
+    border-bottom: 10px solid black;
+}
 .dark-mode{
     background-color: rgb(30, 30, 136);
     color: antiquewhite;
 }
 .dark-mode a{
     color:antiquewhite
+}
+.dark-mode #blogPosts{
+    color: black;
+}
+footer{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 10px solid black;
+}
+footer > *{
+    padding: 25px;
 }
 

@@ -1,4 +1,4 @@
-// Variables for back button and mode switch button.
+ // Variables for back button and mode switch button.
 const backBtn = document.getElementById('back-btn');
 const body = document.body;
 const blogPosts = document.getElementById('blogPosts');

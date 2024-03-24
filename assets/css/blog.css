@@ -1,8 +1,30 @@
-body{
-    background-color: antiquewhite;
-}
 
-footer{
+h1{
+    font-size: 45px;
+    text-align: center;
+}
+.blog-btns{
+    display:flex;
+    justify-content: space-between;
+}
+.blog-post{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-direction: column;
+    border: 5px solid black;
+    margin: 25px;
+    background-color: rgb(153, 153, 153);
+}
+.blog-post h2{
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+}
+/* Overflow hidden if the user inputs long word with no spaces. */
+.blog-post p{
+    font-size: 20px;
+    overflow: hidden;
+}
+.blog-post article{
+    border-top: 2px solid black;
 }

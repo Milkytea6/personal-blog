@@ -1,6 +1,4 @@
-body{
-    background-color: antiquewhite;
-}
+
 header{
     display: flex;
     justify-content: end;
@@ -28,14 +26,7 @@ form div{
 form div input{
     width: 100%;
 }
-footer{
-    font-size: large;
-    display: flex;
-    justify-content: space-around;
-}
-footer > *{
-    padding: 25px;
-}
+
 
 /* Allow the img and form content to display vertically on smaller screens. */
 @media screen and (max-width: 720px){
