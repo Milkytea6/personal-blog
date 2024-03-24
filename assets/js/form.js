@@ -19,10 +19,18 @@ submitBtn.addEventListener('click', function(event)
         window.alert("Username, title, or content cannot be blank.");
         return;
     }
+    // Pulling array from local storage 
+    let blogArray = JSON.parse(localStorage.getItem('blogArray'));
+    // converts object to string
+    const blogString = JSON.stringify(blogDetails);
+    // Pushes stringified object to array
+    blogArray.push(blogString);
+    // Saves array in local storage
+    localStorage.setItem('blogArray', JSON.stringify(blogArray));
+
+
     // Sends user to blog page.
     window.location.href = "blog.html";
-    // Stores object has a string in local storage.
-    localStorage.setItem('blogDetails', JSON.stringify(blogDetails)); 
 }
 )
 

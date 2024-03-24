@@ -2,6 +2,13 @@ body{
     background-color: antiquewhite;
 }
 .dark-mode{
-    background-color: midnightblue;
+    background-color: rgb(30, 30, 136);
     color: antiquewhite;
+}
+.dark-mode a{
+    color:antiquewhite
+}
+footer{
+    display: flex;
+    justify-content: space-around;
 }

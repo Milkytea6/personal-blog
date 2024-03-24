@@ -7,8 +7,11 @@ header{
     padding: 10px;
 }
 .dark-mode{
-    background-color: midnightblue;
+    background-color: rgb(30, 30, 136);
     color: antiquewhite;
+}
+.dark-mode a{
+    color:antiquewhite
 }
 .blog-content{
     display: flex;
