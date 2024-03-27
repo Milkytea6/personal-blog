@@ -42,6 +42,6 @@ THEN I am presented with a link to the developer's portfolio.
 ## Summary
 
 ## Deployed Webpage
-https://milkytea6.github.io/my-portfolio/
+https://milkytea6.github.io/personal-blog/
 ## Screenshot
 !['Screenshot of deployed website'](./assets/images/my-first-blog-screenshot.png)
