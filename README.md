@@ -1,7 +1,7 @@
 # Personal Blog
 
 ## Functionality 
-
+When the user loads the page, the user can create a blog to be displayed on a separate page. The user enters thier username, a title, and then the content. Then the user will be redirected to the page with all the other blogs. The user can click the back button to go back and enter more blogs.
 ## User Story
 ```
 AS A marketing student
@@ -42,5 +42,6 @@ THEN I am presented with a link to the developer's portfolio.
 ## Summary
 
 ## Deployed Webpage
-
+https://milkytea6.github.io/my-portfolio/
 ## Screenshot
+!['Screenshot of deployed website'](./assets/images/my-first-blog-screenshot.png)
